@@ -1,0 +1,42 @@
+
+.recap-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: fit-content;
+    margin-top: 75px;
+}
+
+.recap-logo {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 30px;
+}
+
+.recap-details {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.recap-details > div {
+    margin: -4px;
+}
+
+.recap-temp {
+    font-size: 5.5em;
+    font-weight: bold;
+}
+
+.recap-city {
+    font-size: 4em;
+}
+
+.recap-label {
+    font-size: 2em;
+}

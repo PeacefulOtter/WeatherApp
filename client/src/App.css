@@ -1,0 +1,45 @@
+
+:root {
+	--1: #134074;
+	--2: #13315C;
+	--3: #0B2545;
+	--4: #F7F9F9;
+	--5: #750D37;
+}
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.App {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(140deg, var(--1) 0%, var(--2) 50%, var(--3) 100%); 
+	font-family: OpenSansRegular;
+	color: var(--4);
+}
+
+.weather-wrapper {
+	max-width: 1300px;
+	width: 75%;
+	display: flex;
+	justify-content: space-between;
+}
+
+@font-face {
+    font-family: OpenSansBold;
+    src: url(./css/fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: OpenSansRegular;
+    src: url(./css/fonts/OpenSans-Regular.ttf);
+}
